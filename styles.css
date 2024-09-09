@@ -2,6 +2,9 @@
 
 body {
     --main-bgColor: hsl(47, 88%, 63%);
+    --gray-950: hsl(0, 0%, 7%);
+    --gray-500: hsl(0, 0%, 42%);
+
     background-color: var(--main-bgColor);
     margin: 0;
     display: flex;
@@ -10,19 +13,19 @@ body {
     height: 100vh;
     font-size: 16px;
     font-family: "Figtree", sans-serif;
+    color: var(--gray-950);
 }
 
 article {
     background-color: hsl(0, 0%, 100%);
-    max-width: max-content;
+    max-width: 270px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 231px;
     margin: auto;
-    padding: .75em;
+    padding: 24px;
     border-radius: 1em;
-    border: 1px solid hsl(0, 0%, 7%);
+    border: 1px solid var(--gray-950);
     line-height: 150%;
 }
 
@@ -31,13 +34,37 @@ span {
     font-size: .7em;
     background-color: var(--main-bgColor);
     max-width: fit-content;
-    margin-top: 20px;
+    margin-top: 24px;
     padding: 0 8px;
-    border-radius: .25em;
+    border-radius: 4px;
 }
 
 p {
     font-size: .7em;
     font-weight: 500;
-    margin: 6px 0;
+    margin: 12px 0;
+    line-height: 150%;
+}
+
+img {
+    border-radius: 10px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 1.2em;
+    margin: 0;
+    line-height: 150%;
+}
+
+#description{
+    color: var(--gray-500);
+    margin-bottom: 24px;
+    font-size: .8em;
+}
+
+#author {
+    font-weight: 800;
+    line-height: 150%;
+    font-size: .7em;
 }
