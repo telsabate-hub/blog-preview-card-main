@@ -23,18 +23,19 @@ article {
     flex-direction: column;
     justify-content: space-evenly;
     margin: auto;
-    padding: 24px;
+    padding: 20px;
     border-radius: 1em;
     border: 1px solid var(--gray-950);
+    box-shadow: 5px 5px 0px 0px #000000;
     line-height: 150%;
 }
 
-span {
+#category {
     font-weight: 800;
     font-size: .7em;
     background-color: var(--main-bgColor);
     max-width: fit-content;
-    margin-top: 24px;
+    margin-top: 18px;
     padding: 0 8px;
     border-radius: 4px;
 }
@@ -42,7 +43,7 @@ span {
 p {
     font-size: .7em;
     font-weight: 500;
-    margin: 12px 0;
+    margin: 10px 0;
     line-height: 150%;
 }
 
@@ -57,9 +58,14 @@ h1 {
     line-height: 150%;
 }
 
+h1:hover {
+    color: var(--main-bgColor);
+    cursor: pointer;
+}
+
 #description{
     color: var(--gray-500);
-    margin-bottom: 24px;
+    margin-bottom: 18px;
     font-size: .8em;
 }
 
@@ -67,4 +73,13 @@ h1 {
     font-weight: 800;
     line-height: 150%;
     font-size: .7em;
+}
+
+#author > img {
+    width: 26px;
+    vertical-align: middle;
+}
+
+#authorName {
+    margin-left: 5px;
 }
