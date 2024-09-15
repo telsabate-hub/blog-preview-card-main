@@ -63,6 +63,11 @@ h1:hover {
     cursor: pointer;
 }
 
+h1:focus {
+    color: var(--main-bgColor);
+    outline: none;
+}
+
 #description{
     color: var(--gray-500);
     margin-bottom: 18px;
