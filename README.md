@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Blog Preview Card Project Solution](https://github.com/telsabate-hub/blog-preview-card-main)
-- Live Site URL: [Blog Preview Card Project](https://your-live-site-url.com)
+- Live Site URL: [Blog Preview Card Project](https://telsabate-hub.github.io/blog-preview-card-main/)
 
 ## My process
 
